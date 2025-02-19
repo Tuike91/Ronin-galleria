@@ -90,7 +90,63 @@ a {
 .vertical-text3 {
     right: 9%;
 }
-.container:hover {
-    color:aliceblue;
 
+/* Responsiiviset tyylit */
+@media (max-width: 768px) {
+    body {
+        padding-top: 50px;
+    }
+    .content {
+        max-width: 100%;
+        padding: 30px;
+        margin-top: -20px;
+    }
+    h1, h2, p {
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .vertical-text {
+        font-size: 60px;
+        left: 5%;
+    }
+    .vertical-text2 {
+        font-size: 50px;
+        left: 10%;
+    }
+    .vertical-text3 {
+        font-size: 50px;
+        right: 7%;
+    }
 }
+
+@media (max-width: 480px) {
+    body {
+        padding-top: 30px;
+    }
+    .content {
+        max-width: 100%;
+        padding: 20px;
+        margin-top: -10px;
+    }
+    h1, h2, p {
+        margin-bottom: 15px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .vertical-text {
+        font-size: 40px;
+        left: 3%;
+    }
+    .vertical-text2 {
+        font-size: 35px;
+        left: 8%;
+    }
+    .vertical-text3 {
+        font-size: 35px;
+        right: 5%;
+    }
+}
+
