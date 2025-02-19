@@ -38,36 +38,9 @@ img {
     text-decoration: none;
 }
 .vertical-text2 {
-    left: 12%;
+    left: 13%;
 }
 
-/* Responsiiviset tyylit */
-@media (max-width: 768px) {
-    body {
-        padding-top: 30px;
-    }
-    .vertical-text2 {
-        font-size: 50px;
-        left: 10%;
-    }
-    img {
-        margin: 15px auto;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        padding-top: 20px;
-    }
-    .vertical-text2 {
-        font-size: 40px;
-        left: 8%;
-    }
-    img {
-        margin: 10px auto;
-    }
-
-}
 .container {
     display: flex;
     flex-direction: column;
