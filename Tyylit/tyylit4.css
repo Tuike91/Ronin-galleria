@@ -92,12 +92,41 @@ a {
 }
 
 /* Responsiiviset tyylit */
+@media (max-width: 1024px) {
+    .content {
+        max-width: 80%;
+        padding: 40px;
+        margin-top: -20px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    p {
+        font-size: 18px;
+    }
+    .vertical-text {
+        font-size: 60px;
+        left: 5%;
+    }
+    .vertical-text2 {
+        font-size: 50px;
+        left: 10%;
+    }
+    .vertical-text3 {
+        font-size: 50px;
+        right: 7%;
+    }
+}
+
 @media (max-width: 768px) {
     body {
         padding-top: 50px;
     }
     .content {
-        max-width: 100%;
+        max-width: 90%;
         padding: 30px;
         margin-top: -20px;
     }
@@ -126,12 +155,15 @@ a {
         padding-top: 30px;
     }
     .content {
-        max-width: 100%;
+        max-width: 95%;
         padding: 20px;
         margin-top: -10px;
     }
-    h1, h2, p {
-        margin-bottom: 15px;
+    h1 {
+        font-size: 1.2em;
+    }
+    h2 {
+        font-size: 1em;
     }
     p {
         font-size: 16px;
@@ -149,10 +181,5 @@ a {
         right: 5%;
     }
 }
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
 
