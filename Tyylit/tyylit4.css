@@ -90,9 +90,3 @@ a {
 .vertical-text3 {
     right: 9%;
 }
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
