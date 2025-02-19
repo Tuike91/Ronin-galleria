@@ -1,0 +1,96 @@
+/* Reset-tyylit kaikille elementeille */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Taustakuva ja perusasetukset bodylle */
+body {
+    background: url('../Kuvat/Roni kansi.jpg') no-repeat center center fixed;
+    background-size: contain;
+    background-color: black;
+    color: rgb(165, 0, 0);
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 75px;
+}
+
+/* Sisältöalueen muotoilu */
+.content {
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 50px;
+    border-radius: 50px;
+    margin-top: -40px;
+}
+
+/* Otsikot ja kappaleet */
+h1, h2, p {
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Linkkien väri */
+a {
+    color: #0004ff;
+}
+
+/* Kellon muotoilu */
+#clock {
+    font-size: 24px;
+    color: #0004ff !important;
+    margin-top: 20px;
+}
+
+/* Pystysuuntainen teksti (vasen ja oikea) */
+.vertical-text {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(165, 0, 0);
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    white-space: nowrap;
+    z-index: 10;
+    text-decoration: none;
+}
+.vertical-text2, .vertical-text3 {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(165, 0, 0);
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    white-space: nowrap;
+    z-index: 10;
+    text-decoration: none;
+}
+.vertical-text {
+    left: 7%;
+}
+
+.vertical-text2 {
+    left: 12%;
+}
+
+.vertical-text3 {
+    right: 9%;
+}
+.container:hover {
+    color:aliceblue;
+
+}

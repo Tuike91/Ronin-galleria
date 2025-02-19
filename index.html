@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronin galleria</title>
+    <link rel="stylesheet" href="Tyylit/tyylit4.css">
+</head>
+
+<body>
+    <div class="container">
+        <a href="Sivut/Ronin_tarina.html" class="vertical-text">RONIN</a>
+        <a href="Sivut/Ronin_tarina.html" class="vertical-text2">Tarina</a>
+        <a href="Sivut/galleria.html" class="vertical-text3">GALLERIA</a>
+    </div>
+    <div class="content">
+            <h1>Shetlanninlammaskoira</h1>
+            <h2>RONI</h2>
+
+            <p> &#x2190; Ronin Tarina </p>
+            <p> Kuvia Ronista galleriassa &#x2192; </p>
+
+            <p>Lisätietoja shetlanninlammaskoirasta:<br>
+                <a href="https://fi.wikipedia.org/wiki/Shetlanninlammaskoira" 
+                target="_blank">wikipedia.org</a>
+            </p><br>
+
+            <p>Laske koirasi ikä ihmisen iässä!<br>
+            Syötä koirasi ikä ja paina "Näytä"</p>
+
+            <form>
+                <input type="number" id="luku" name="luku" min="1" max="20" value="">
+                <input onclick="ika();" type="button" id="nappi" name="nappi" value="Näytä">
+            </form>
+            <div id="ika"></div>
+            <script src="Scriptit/ika.js"></script><br>
+            
+            <p>Kellonaika Shetlannin saarilla:</p>
+            <div id="clock" style="font-size: 24px; color: white; margin-top: 20px;"></div>
+            <script src="Scriptit/kello.js"></script>
+    </div>
+    
+    
+</body>
+</html>
+
+
+
