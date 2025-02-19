@@ -74,7 +74,7 @@ a {
     z-index: 10;
     text-decoration: none;
 }
-.vertical-text2, .vertical-text3 {
+.vertical-text2, .vertical-text3, .vertical-text4 {
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
@@ -97,4 +97,8 @@ a {
 
 .vertical-text3 {
     right: 10%;
+}
+
+.vertical-text4 {
+    left: -70%;
 }
